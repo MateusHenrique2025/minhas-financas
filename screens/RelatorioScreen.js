@@ -5,7 +5,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { cores, espacamento, raio } from '../theme';
 
 export function RelatorioScreen() {
-  // Na Aula 4, estes dados virão do Context (AsyncStorage)
+  // Na Aula 5, estes dados virão do Context (AsyncStorage)
   const receitas = 3700;
   const despesas = 2206.30;
   const saldo = receitas - despesas;

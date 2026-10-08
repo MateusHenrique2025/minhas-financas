@@ -4,9 +4,9 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Ionicons } from '@expo/vector-icons';
 // A aba Dashboard aponta para um Stack (criado no Passo 8), não diretamente para a tela
 import { DashboardStack } from './DashboardStack';
-import { NovaTransacaoScreen } from '../screens routes/NovaTransacaoScreen';
-import { RelatorioScreen } from '../screens routes/RelatorioScreen';
-import { SobreScreen } from '../screens routes/SobreScreen';
+import { NovaTransacaoScreen } from '../screens/NovaTransacaoScreen';
+import { RelatorioScreen } from '../screens/RelatorioScreen';
+import { SobreScreen } from '../screens/SobreScreen';
 
 const Tab = createBottomTabNavigator();
 

@@ -4,7 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { TabRoutes } from './routes/TabRoutes';
 // BoasVindasScreen será criada no Passo 9
-import { BoasVindasScreen } from './screens routes/BoasVindasScreen';
+import { BoasVindasScreen } from './screens/BoasVindasScreen';
 
 export default function App() {
   // Controla qual "árvore" de componentes é renderizada (navegação condicional, Passo 9)
